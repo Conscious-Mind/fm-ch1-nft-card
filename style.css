@@ -56,7 +56,7 @@ body {
 .container .main-image .main-image-overlay {
   position: absolute;
   top: 0;
-  background-color: hsl(178, 100%, 50%, 60%);
+  background-color: hsl(178, 100%, 50%, 50%);
   width: 100%;
   height: calc(100% - 4px);
   z-index: 100;
@@ -133,7 +133,8 @@ body {
 .attribution {
   font-size: 12px;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
